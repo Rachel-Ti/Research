@@ -1,11 +1,11 @@
 - Papers
-  -[edge and multi](#edge-and-multi)
-  -[scheduler](#scheduler)
-  -[scaler](#scaler)
-  -[scale and schedule](#scale-and-schedule)
-  -[review](#review)
-  -[benchmark](#benchmark)
-  -[dataset](#dataset)
+  - [edge and multi](#edge-and-multi)
+  - [scheduler](#scheduler)
+  - [scaler](#scaler)
+  - [scale and schedule](#scale-and-schedule)
+  - [review](#review)
+  - [benchmark](#benchmark)
+  - [dataset](#dataset)
 
 
 
