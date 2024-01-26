@@ -56,7 +56,7 @@ We have simply divided the papers into the following categories for easy selecti
 
 **预热以及保活机制**
 
-![policy](.\\img\\alive.png)
+![policy](https://github.com/Rachel-Ti/Research/blob/main/img/alive.png)
 
 [data](https://github.com/Azure/AzurePublicDataset)
 
