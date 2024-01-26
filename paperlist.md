@@ -4,8 +4,12 @@ Here are some useful papers about serverless computing.And we look forward to yo
 
 We have simply divided the papers into the following categories for easy selective reading.
 
+- [Review](#review)
+- [Analytic](#analytic)
+- [Methods](#methods)
+- [Problems](#problems)
 
-## Review（综述型）
+## Review
 综述型论文是对某一专题、某一领域的历史背景、前人工作、争论焦点、研究现状与发展前景等方面，以作者自己的观点写成的严谨而系统的评论性、资料性的论文。会引用某个领域50～100篇（甚至更多）文献参考资料，来辨明其中的关系、矛盾、差距及不一致性，并建议解决问题的后续步骤。该类型论文不要求作者对其研究发现进行阐述，因此这类论文一般在项目初期通过大量的文献资料研究进行撰写。
 
 
@@ -25,7 +29,7 @@ We have simply divided the papers into the following categories for easy selecti
 
     无服务器计算正因其轻量级和简单的管理而越来越受欢迎。它通过将计算单元的粒度降低到函数级别来实现这些优点。具体来说，无服务器计算允许用户专注于函数本身，而将其他繁琐的管理和调度问题留给平台提供商，后者负责在高性能调度和低资源成本之间取得平衡。在本文中，我们对无服务器计算进行了全面的调查，特别关注其基础架构特性。通过这种方式，我们确定了一些现有挑战，并分析了相关的尖端解决方案。利用这些结果，我们进一步研究了一些典型的开源框架，并研究了它们如何解决确定的挑战。鉴于无服务器计算的巨大优势，预计其部署将主导未来的云平台。因此，我们还看到了一些有待未来进一步探索的有前景的研究机会。我们希望本文的工作能够激发那些从事相关领域的研究人员和实践者，让他们认识到无服务器计算的重要性，从而涉足这个有前景的领域，为它的发展做出巨大贡献。
   
-## Analytic（分析型）
+## Analytic
 分析型论文主要由分析构成，可以是分析数据，或者分析模型等等。
 
 **Let's Trace It: Fine-Grained Serverless Benchmarking using Synchronous and Asynchronous Orchestrated Applications**
@@ -80,7 +84,7 @@ We have simply divided the papers into the following categories for easy selecti
 
 [参考文章](https://zhuanlan.zhihu.com/p/566802605)
 
-## Methods（方法型）
+## Methods
 
 方法型论文旨在展示一种新的实验方法、测试方法或者流程，对结果不做过多阐述。其架构和篇幅与研究型论文相似。尽管结果不是这类论文的核心部分，但大部分期刊仍会要求提供结果相关的数据样本。
 
@@ -129,7 +133,7 @@ We have simply divided the papers into the following categories for easy selecti
 
 
 
-## Problems（问题型）
+## Problems
 
 **Modeling and Optimization of Performance and Cost of Serverless Applications**
 
