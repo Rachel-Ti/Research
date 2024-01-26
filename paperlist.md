@@ -56,7 +56,7 @@ We have simply divided the papers into the following categories for easy selecti
 
 **预热以及保活机制**
 
-![policy](.\\img\\alive.png "policy")
+![policy](.\\img\\alive.png)
 
 [data](https://github.com/Azure/AzurePublicDataset)
 
@@ -111,7 +111,7 @@ We have simply divided the papers into the following categories for easy selecti
 
 - Motivation
 由于serverless中的工作流不能够表达所有类型的应用程序，许多研究工作已经证明，基于有向无环图(DAG)和Petri网的工作流对于并行、分布式和科学计算系统的性能和成本建模是有效的[25]，[26]，[27]。然而，它们都不适合无服务器范例，因为dag中不允许循环和循环，并且在Petri网中没有有效的解决方案会导致状态爆炸问题。Petri网的缺点还在于其高复杂性和对云计算中非功能需求的有限支持[28]。因此，本文对serverless application进行建模，包括4种类型的结构：并行、分支、循环和自循环。
-![workflow](.\\img\\workflow.png "workflow")
+![workflow](.\\img\\workflow.png)
 
 - Solution
 本文在上述结构的基础上采用一些方法简化结构，将复杂的结构转化为概率DAG，并且设计性能模型和成本模型，模型的目标是在预算或者延迟的约束下优化延迟或者成本，本质是一个分组背包问题（MCKP），由于MCKP已被证明是一个NP完全问题，除非P=NP[35]，否则在多项式时间内没有任何解，因此必须采用启发式算法。作者基于关键路径采用3种贪心策略找到合适的内存配置以实现目标。
